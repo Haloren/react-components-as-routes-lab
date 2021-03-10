@@ -5,7 +5,7 @@ const Directors = () => {
   // console.log(directors)
   const listDirectors = directors.map((director, index) => 
     <div key={index}>
-      <h1>{director.name}</h1>
+      <h3>{director.name}</h3>
       <ul>
         {director.movies.map((movie, index) => <li key={index}>{movie}</li>)}
       </ul>
